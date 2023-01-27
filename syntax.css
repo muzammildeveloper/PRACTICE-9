@@ -1,0 +1,16 @@
+body {
+  height: 700px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  border-left: solid 150px transparent;
+  border-right: solid 150px transparent;
+  border-top: solid 150px red;
+  border-bottom: solid 150px transparent;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
